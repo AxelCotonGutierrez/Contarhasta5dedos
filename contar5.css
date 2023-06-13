@@ -129,7 +129,14 @@ h1 {
     max-width: 100%; /* Ancho completo en dispositivos móviles */
   }
 
-  container img {
-    width: calc(30% - 10px); /* Ajusta el valor según tus necesidades */
+  .container img {
+    width: calc(50% - 10px); /* Ajusta el valor según tus necesidades */
+  }
+
+  .guess-button {
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    margin-bottom: 10px;
   }
 }
