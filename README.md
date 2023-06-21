@@ -4,7 +4,7 @@
 
 Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
 
-Juego para Infantil para aprender a contar hasta cinco usando dados.
+Juego para Infantil para aprender a contar hasta cinco usando los dedos de una mano.
 
 Puedes probar el juego en esta url:
 
