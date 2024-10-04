@@ -3,36 +3,34 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>JUEGO DE LOS DEDOS</title>
+	<title>JUEGO DE LOS DEDOS HASTA EL 5</title>
 	<link rel="stylesheet" href="contar5.css">
 	<link rel="stylesheet" href="nav.css">
 	<link rel="icon" href="icon.png" type="image/png">
 	<script src="https://axelcotongutierrez.github.io/learningmathematicas/assets/js/header.js"></script>
+	<!-- Incluir las bibliotecas de Firebase -->
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-database.js"></script>	
+	<script src="https://axelcotongutierrez.github.io/learningmathematicas/assets/js/contador.js"></script>
 </head>
 <body>
 	<header>
 		<div id="header-placeholder"></div>
 		  <h1 style="text-align: center;">JUEGO DE LOS DEDOS HASTA EL 5</h1>
-		</header>
-	  <br>
-
-	  <p class="textosuperior" style="text-align: center;">Este contenido se vincula con el 
+	</header>
+	<br>
+	<p class="textosuperior" style="text-align: center;">Este contenido se vincula con el 
 		<b><a href="https://axelcotongutierrez.github.io/learningmathematicas/projects/Niveles/#level-2-detail" target="_blank">Nivel 2</a></b>
 		 de la materia <a title="Matemáticas" href="https://axelcotongutierrez.github.io/learningmathematicas/tags/?tag=matemáticas" target="_blank"><img class="center-block img-responsive" width="30" alt="Matemáticas" src="/learningmathematicas/assets/images/pages/figuras/Matematicas.png"></a>
 		 y es perteneciente al curso <a title="Infantil" href="https://axelcotongutierrez.github.io/learningmathematicas/tags/?tag=infantil" target="_blank"><img class="center-block img-responsive" style="display: inline-block;" width="30" alt="Infantil" src="/learningmathematicas/assets/images/pages/figuras/infantil.png"></a>
-		</p>
-	  <br>
-
-		  
-	   
-	
+	</p>
+	<br>
 	<div class="container2">
-	<span class="pregunta">¿Eres capaz de contar los dedos que están levantados cinco veces sin equivocarte?</span>
-	<div id="audio-controls">
-		<img src="img/Megafono.png" id="megaphone-icon" alt="Megáfono">
-		
-	  </div>
-	<button id="play-again-button" style="display: none;">Volver a jugar</button>
+		<span class="pregunta">¿Eres capaz de contar los dedos que están levantados cinco veces sin equivocarte?</span>
+		<div id="audio-controls">
+			<img src="img/Megafono.png" id="megaphone-icon" alt="Megáfono">
+		</div>
+		<button id="play-again-button" style="display: none;">Volver a jugar</button>
 	</div>
 	<div class="container">
 		<div id="buttons-container">
@@ -40,43 +38,27 @@
     		<button class="guess-button">2</button>
     		<button class="guess-button">3</button>
 			<button class="guess-button">4</button>
-			<button class="guess-button">5</button> </div>
-			<!-- Ponemos las cinco opciones entre ellas la verdadera"-->
-			<div id="image-container"></div>
-			<span class="msj" id="result">
-				<!-- Desplegamos el mensaje "Excelente o Inténtalo de nuevo"-->
-			 		
-			 </span>
-			 <span class="msj" id="score">
-				
-					
-			 </span>
+			<button class="guess-button">5</button>
 		</div>
-		
+		<div id="image-container"></div>
+		<span class="msj" id="result"></span>
+		<span class="msj" id="score"></span>
 	</div>
-	
 	<label for="sound-control">Sonido:</label>
 	<input type="checkbox" id="sound-control" checked>
 	<p class="textosuperior" style="text-align: center;"> 
 		<b><a href="https:" target="_blank">¿Cómo jugar?</a></b>
-		
-		</p>
+	</p>
 
-
-
+	<!-- Contador -->
+	<p id="contador">Han jugado 0 veces.</p>
 
 	<script src="contar5.js"></script>
-	
 	<br>
 	<div style="width: 80%; margin: 0 auto;">
-	<a href="https://commons.wikimedia.org/wiki/File:Index_finger_%3D_attention.JPG">Imágenes: Pogrebnoj-Alexandroff</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
-</div>
-<br>
-	<footer class="footer">
-		<ul class="footer-links">
-			<li><a href="http://github.com/AxelCotonGutierrez"> <img src="githubinverseicon.jpg"></a></li>
-			<li><a href="https://www.youtube.com/@learningmathematicas"> <img src="youtubeinverseicon.jpg"></i></a></li>
-		</ul>
-	</footer>
+		<a href="https://commons.wikimedia.org/wiki/File:Index_finger_%3D_attention.JPG">Imágenes: Pogrebnoj-Alexandroff</a>, <a href="https://creativecommons.org/licenses/by-sa/3.0">CC BY-SA 3.0</a>, via Wikimedia Commons
+	</div>
+	<br>
+	<div id="footer-placeholder"></div>
 </body>
 </html>
