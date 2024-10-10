@@ -4,11 +4,17 @@
 
 Dentro del blog: https://axelcotongutierrez.github.io/learningmathematicas/
 
+Vídeo Explicativo del código: https://youtu.be/SRH_XsvWb98?si=8oBNNTaQYVrqgSaj
+
 Juego para Infantil para aprender a contar hasta cinco usando los dedos de una mano.
 
 Puedes probar el juego en esta url:
 
 https://axelcotongutierrez.github.io/Contarhasta5dedos/
+
+Para saber como jugar solo ver la sección correspondiente en nuestro Canal de Youtube:
+
+https://www.youtube.com/watch?v=7KJ5L8lH0zo
 
 ¡Bienvenido al emocionante juego de contar dedos! ¿Estás listo para poner a prueba tus habilidades matemáticas mientras te diviertes? En este desafío, pondremos a prueba tu destreza para contar hasta cinco utilizando los dedos de una mano.
 
